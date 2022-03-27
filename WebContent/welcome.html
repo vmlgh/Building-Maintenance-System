@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta content="" name="keywords">
+  <meta content="" name="description">
+
+    <!--<meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+    <title>Building Management System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<script src="main.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+     <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <script>
+function validLogin(){
+if (document.form.userName.value == ""){
+alert ( "Please enter Login Name." );
+document.form.userName.focus();
+return false;
+}
+if (document.form.password.value == ""){
+alert ( "Please enter password." );
+document.form.password.focus();
+return false;
+}
+return true;
+}
+</script>
+    
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">B.M.S</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Login">Login</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#SecretaryLogin">Secretary Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#SecurityLogin">Security Login</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link js-scroll-trigger" href="#ContactUs">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+          <br><br>
+            <h1 class="text-uppercase">
+              <strong>Living Meadows</strong>
+            </h1>
+            <hr class="">
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="mb-5">Landmark Living on The Avenue - Blending Relaxation & Sophistication to Create the Ideal Place for living</p>
+            <a class="btn btn-primary js-scroll-trigger" href="#AboutUs">Find Out More</a><br><br><br><br><br>
+            <h3 class="text-uppercase">
+              <strong>Building Management System</strong>
+            </h3>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+
+
+<!--PORTFOLIO-->
+
+<section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title text-black text-center ">Portfolio</h3>
+          <hr>
+          <p class="section-description text-center">Service with LifeStyle</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-front,.filter-top, .filter-int" class="filter-active">All</li>
+              <!--<li data-filter=".filter-front">FrontView</li>
+              <li data-filter=".filter-top">TopView</li>
+              <li data-filter=".filter-int">Interior</li>-->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-front">
+            <a href="10.jpg">
+              <img src="10.jpg" alt="">
+              <div class="details">
+                <h4>Higher quality of living</h4>
+              </div>
+            </a>
+          </div>
+        
+
+
+
+         
+          <div class="col-lg-3 col-md-6 portfolio-item filter-top">
+            <a href="01.jpg">
+              <img src="01.jpg" alt="">
+              <div class="details">
+                <h4>Spectacular Views in Every Direction</h4>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-lg-3 col-md-6 portfolio-item filter-int">
+            <a href="3.jpg">
+              <img src="3.jpg" alt="">
+              <div class="details">
+                <h4>Spacious Modern Living</h4>
+              </div>
+            </a>
+          </div>
+       
+         
+        
+          <div class="col-lg-3 col-md-6 portfolio-item filter-front">
+            <a href="2.jpg">
+              <img src="2.jpg" alt="">
+              <div class="details">
+                <h4>The Lifestyle You Deserve</h4>
+              </div>
+            </a>
+          </div>
+       
+ 
+        
+          <div class="col-lg-3 col-md-6 portfolio-item filter-front">
+            <a href="11.jpg">
+              <img src="11.jpg" alt="">
+              <div class="details">
+                <h4>Live Outside The Lines</h4>
+              </div>
+            </a>
+          </div>
+
+         <div class="col-lg-3 col-md-6 portfolio-item filter-int">
+            <a href="6.jpg">
+              <img src="6.jpg" alt="">
+              <div class="details">
+                <h4>Everything You Need. All Right Here</h4>
+              </div>
+            </a>
+          </div>
+        
+        <div class="col-lg-3 col-md-6 portfolio-item filter-int">
+            <a href="5.jpg">
+              <img src="5.jpg" alt="">
+              <div class="details">
+                <h4>Luxury is Built-In. Not Tacked On</h4>
+              </div>
+            </a>
+          </div>
+        
+        <div class="col-lg-3 col-md-6 portfolio-item filter-top">
+            <a href="4.jpeg">
+              <img src="4.jpeg" alt="">
+              <div class="details">
+                <h4>Where Excellence and Convenience Meet</h4>
+              </div>
+            </a>
+          </div>
+         
+
+       </div>  
+
+      </div>
+    </section>
+
+    
+   
+<!--/PORTFOLIO-->
+
+    <section  class="bg-dark" id="about">
+      <!--<div class="container">-->
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center text-white">
+            <!--<h3 class="section-heading text-white"></h3>-->
+            <!--<hr class="light my-4">-->
+            <p class="text-faded mb-4 text-uppercase"><h1>A New Wave of Living</h1></p>
+            <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>-->
+          </div>
+        </div>
+      <!--</div>-->
+    </section>
+     
+<br><br>
+    <div class="resident">
+    <section id="Login">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-white bg-dark">Login</h2>
+            <hr class="my-1">
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-sm text-white">
+     
+        <center>
+        <!--<form action="ResidentLoginServlet"  method="POST">
+        <div class="form-group">
+  <label class="col-form-label" for="userName">Username</label>
+  <input class="form-control" placeholder="userName" id="userName" type="text">
+        </div>
+        
+        <div class="form-group">
+  <label class="col-form-label" for="password">Password</label>
+  <input class="form-control" placeholder="password" id="password" type="text">
+        </div>
+        </form>
+        </center>-->
+        
+        
+        
+        <form name="form" action="LoginServlet"  method="POST" onsubmit="return validLogin();">
+        <br>
+        Username:  <input type="text"  name="userName"  id="userName"  placeholder="Username"/>
+        Password:  <input type="password" name="password" id="password" placeholder="Password"/>
+        <br><br>
+        <input class="btn btn-primary  js-scroll-trigger" type="submit" name="s" value="Login"/>
+        
+        
+        </form>
+        </center>
+        </div>
+    </section>
+    </div>
+  <br><br>
+    <section class="bg-dark" id="about1">
+      <!--<div class="container">-->
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center text-white">
+            <!--<h3 class="section-heading text-white"></h3>-->
+            <!--<hr class="light my-4">-->
+            <p class="text-faded mb-4 text-uppercase"><h1>Love Where You Live</h1></p>
+            <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>-->
+          </div>
+        </div>
+      <!--</div>-->
+    </section>
+ 
+ <!-- SECRETARY PREVIOUS -->
+    <!-- <div class="secretary">
+    <section id="SecretaryLogin">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading bg-dark text-white">Secretary Login</h2>
+            <hr class="my-1">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm text-white">
+     
+        <center>
+        
+        <form action="LoginServlet"  method="POST"><center>
+        
+        Username: <input type="text"  name="userName"  placeholder="UserName"/><br>
+        Password:<input type="password" name="password" placeholder="Password"/><br>
+        <input class="btn btn-primary  js-scroll-trigger" type="submit" name="s" value="Login"/>
+        </center>
+        </form>
+        </center>
+        </div>
+    </section>
+    </div> -->
+
+
+    <!-- <section class="bg-dark" id="about2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center text-white">
+            <h3 class="section-heading text-white"></h3>
+            <hr class="light my-4">
+            <p class="text-faded mb-4 text-uppercase"><h1>Love Where You Live</h1></p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+ <!-- SECURITY PREVIOUS -->
+    <!-- <div class="security">
+    <section id="SecurityLogin">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading bg-dark text-white">Security Login</h2>
+            <hr class="my-1">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm text-white">
+     
+        <center>
+        
+        <form action="LoginServlet"  method="POST"><center>
+        
+        Username: <input type="text"  name="userName"  placeholder="UserName"/><br>
+        Password: <input type="password" name="password" placeholder="Password"/><br>
+        <input class="btn btn-primary" type="submit" name="s" value="Login"/>
+        </center>
+        </form>
+        </center>
+        </div>
+    </section>
+    </div> -->
+
+
+    <section>
+<div class="container bg-dark" id="AboutUs">
+		<section>
+			<div class="page-header text-white text-primary" id="aboutus">
+  				<h2>About Us.</h2>
+                                <h3> Here are some of the coolest features of these Apartments.</h3>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-8 text-white text-center">
+  					<h3>Play Ground</h3>
+                                        <hr>
+  					<p>Adding a playground to an existing or new apartment complex provides numerous benefits. Not only does an apartment complex playground provide an outdoor gathering place for your residents, it also enhances the sense of community as well as the desirability of your property..</p>
+  				</div>
+  				<div class="col-sm-4 ">
+  					<img src="playground.jpeg" class="img-responsive" alt="image" width="90%" height="90%">
+  				</div>
+  			</div><!-- End row -->
+  			<div class="row">
+  				<div class="col-sm-8 text-white text-center">
+  					<h3>Gym</h3>
+                                        <hr>
+  					<p>The development has a gym that is for the use for all residents. Maintaining apartment gymnasiums and club house becomes an aspect of utmost importance</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="gym.jpg" class="img-responsive" alt="image" alt="image" width="90%" height="90%">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8 text-white text-center">
+  					<h3>Indoor/Outdoor Games</h3>
+                                        <hr>
+  					<p> Indoor games can be one of the best ways to keep seniors,children etc... mind healthy and active. It offers a lot more than just entertainment.These complexes also provide outdoor sports to be played along with indoors. Many sports are being played  such as soccer, baseball, football, shooting softball, and many others.</p>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="game.jpg" class="img-responsive" alt="image" alt="image" width="90%" height="90%">
+  				</div>
+  			</div>
+  			</div>
+  			
+</section>
+
+
+   <!-- <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section>-->
+
+    <section id="ContactUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">wanna experience the BMS lifestyle? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p><br>
+            <p class="mb-5">Address: Living Meadows, Plot Nos: 31,32,33,34 Near Sports Village, Gachibowli
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>7675855006</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">bms@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-whatsapp fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">7036000965</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+      <div class="navbar-text pull-left">
+      <p>Copyright WISE BVRITH CSE 2018</p> 
+      </div>
+      </div>
+      </div>
+
+  </body>
+
+</html>
